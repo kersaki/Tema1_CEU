@@ -1,16 +1,8 @@
-
-lista=[]
-numeros=int(input('Introduzca los numeros deseados: '))
-lista.append(numeros)
-print(lista)
+lista=[input('Introduzca los numeros deseados: ')]
 lista_pares=[]
-lista_imp=[]
-if numeros in lista % 2:
-    lista_pares.append()
-else:
-    lista_imp.append()
-print(lista_pares)
-print(lista_imp)
-
-
-
+lista_impares=[]
+for i in lista:
+    if i % 2:
+        lista_pares.append(i)
+    else:
+        lista_impares.append(i)
