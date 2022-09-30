@@ -8,3 +8,4 @@ for i in lista:
         lista_impares.append(i)
 print(lista_pares)
 print(lista_impares)
+print(lista)
